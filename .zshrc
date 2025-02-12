@@ -1,4 +1,4 @@
-alias ls="lsd"
+alias ls="lsd -a"
 alias clean="sudo pacman -Rns $(pacman -Qtdq)"
 alias bare='/usr/bin/git --git-dir=$HOME/dotfiles'
 
